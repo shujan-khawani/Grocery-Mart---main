@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:grocery_mart_must_company_flutter_assesement/controllers/nav_bar_controller.dart';
 import 'package:grocery_mart_must_company_flutter_assesement/controllers/product_controller.dart';
 import 'package:grocery_mart_must_company_flutter_assesement/views/authentication/login_screen.dart';
-import 'package:grocery_mart_must_company_flutter_assesement/views/screens/main_tab_view.dart';
 import 'package:provider/provider.dart';
 import '../../../controllers/cart_controller.dart';
 
