@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:grocery_mart_must_company_flutter_assesement/controllers/nav_bar_controller.dart';
 import 'package:grocery_mart_must_company_flutter_assesement/controllers/product_controller.dart';
-import 'package:grocery_mart_must_company_flutter_assesement/views/authentication/login_screen.dart';
+import 'package:grocery_mart_must_company_flutter_assesement/views/splash/splash_screen.dart';
 import 'package:provider/provider.dart';
 import '../../../controllers/cart_controller.dart';
 
@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: SplashScreen(),
     );
   }
 }
